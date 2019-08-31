@@ -10,7 +10,7 @@ public class LinkedList1 {
         al.add("Sekinat");
         al.add("Usman");
         al.add("Ganiyat");
-
+        //Iterator
         Iterator<String>itr =al.iterator();
         while (itr.hasNext()){
             System.out.println(itr.next());
